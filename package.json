@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@vivaxy/png": "^1.3.0",
+    "chroma-js": "^2.1.0",
+    "control-panel": "^1.3.4",
+    "gl-mat4": "^1.2.0",
+    "glslify": "^7.1.1",
+    "hsv2rgb": "^1.1.0",
+    "regl": "^2.0.1",
+    "regl-camera": "^2.1.1",
+    "resl": "^1.0.3",
+    "uglifyjs": "^2.4.11",
+    "upng-js": "^2.1.0",
+    "webworkify": "^1.5.0"
+  },
+  "scripts": {
+    "build": "browserify main.js | indexhtmlify > index.html"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "budo": "^11.6.4",
+    "es2040": "^1.2.6",
+    "indexhtmlify": "^2.0.1",
+    "uglify-js": "^3.12.5"
+  }
+}
